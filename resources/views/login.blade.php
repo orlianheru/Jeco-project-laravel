@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
+    @vite('resources/css/app.css')
+    </head>
 <body class="bg-gradient-to-br from-black via-gray-500 to-white h-screen flex items-center justify-center">
 
     <!-- Form Login -->
