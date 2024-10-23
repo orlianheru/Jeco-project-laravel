@@ -1,45 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SIGMA HOLIDAY</title>
-    <link rel="stylesheet" href="assets/CSS/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <title>Sigma Holiday</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-        <nav class="navbar navbar-expand-sm navbar-light bg-black">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
-                    aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarID">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </div>
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Tiket</a>
-                    </div>
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Hotel</a>
-                    </div>
-                </div>
-            </div>
+<body class="bg-white text-center">
+    <!-- Navbar -->
+    <header class="bg-black text-white py-4">
+        <nav class="flex justify-center space-x-6">
+            <a href="#" class="text-lg hover:text-gray-400">Home</a>
+            <a href="#" class="text-lg hover:text-gray-400">Tiket</a>
+            <a href="#" class="text-lg hover:text-gray-400">Hotel</a>
         </nav>
-    <div class="container">
-        <div class="about-container">
-            <h1 class="text">Welcome To Sigma Holiday</h1>
-            <p class="desc">Anda ingin liburan??? klik tombol di bawah ini!</p>
-            <button class="button">Gaskan !!!</button>
+    </header>
+
+    <!-- Bagian Utama dengan Gambar -->
+    <main class="flex flex-col md:flex-row justify-between items-center mx-auto max-w-6xl mt-12 space-y-6 md:space-y-0 md:space-x-12">
+        <!-- Teks Utama -->
+        <div class="text-left md:w-1/2">
+            <h1 class="text-4xl font-bold mb-4">Selamat Datang di Sigma Holiday</h1>
+            <p class="text-lg mb-6">Anda ingin liburan??? Klik tombol di bawah ini!</p>
+            <button class="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-700">Gaskan !!!</button>
         </div>
 
-        <div class="image-container">
-            <img src="assets/image/kota.jpggi" width="500" height="500" alt="" class="image">
+        <!-- Gambar -->
+        <div class="md:w-1/2">
+            <img src="assets/image/kota.jpg" alt="Kota di Malam Hari" class="rounded-lg shadow-lg">
         </div>
-
-    </div>
+    </main>
 </body>
 </html>
