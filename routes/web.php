@@ -17,3 +17,7 @@ Route::get('/login', function () {
 Route::get('/about', function () {
     return view('about'); //merujuk ke file welcome.blade.php di folder resource view
 });
+
+Route::post('/about', function () {
+    return view('about'); //merujuk ke file welcome.blade.php di folder resource view
+});
