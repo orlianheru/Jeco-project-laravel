@@ -11,8 +11,8 @@
     <header class="bg-black text-white py-4">
         <nav class="flex justify-center space-x-6">
             <a href="#" class="text-lg hover:text-gray-400">Home</a>
-            <a href="#" class="text-lg hover:text-gray-400">Tiket</a>
-            <a href="#" class="text-lg hover:text-gray-400">Hotel</a>
+            <a href="{{ route('about') }}" class="text-lg hover:text-gray-400">About</a>
+            <a href="{{ route('login') }}" class="text-lg hover:text-gray-400">Login</a>
         </nav>
     </header>
 

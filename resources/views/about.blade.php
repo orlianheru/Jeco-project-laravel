@@ -9,6 +9,10 @@
   <header class="bg-blue-600 flex justify-center">
   <h1 class="text-3xl font-bold text-fuchsia-300">
     About Mee
+
+    <br>
+
+    <a href="{{ route('home') }}" class="bg-blue-600 flex justify-center">Home</a>
   </h1>
 </body>
 </html>

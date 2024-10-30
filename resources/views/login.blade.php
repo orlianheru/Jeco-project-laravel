@@ -19,7 +19,16 @@
                 <label for="password" class="block text-left text-gray-700 font-bold mb-2">Password:</label>
                 <input type="password" id="password" class="w-full px-4 py-2 border-2 border-red-500 rounded-md focus:outline-none focus:border-red-500" required>
             </div>
+
             <button type="submit" class="w-full bg-black text-white py-2 rounded-md hover:bg-gray-800">LOGIN</button>
+
+            <br>
+            <br>
+
+            <nav class="flex justify-center space-x-6">
+            <a href="{{ route('home') }}" class="text-lg hover:text-gray-400">Home</a>
+        </nav>
+
         </form>
     </div>
 
