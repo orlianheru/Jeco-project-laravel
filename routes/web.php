@@ -24,5 +24,6 @@ Route::get('/welcome', function () {
 // });
 
 route::get('/', [HomeController::class, 'index'])->name('home');
+route::get('/skill', [HomeController::class, 'skill'])->name('skill');
 route::get('/login', [HomeController::class, 'login'])->name('login');
 route::get('/about', [HomeController::class, 'about'])->name('about');
